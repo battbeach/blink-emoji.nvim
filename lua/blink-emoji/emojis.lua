@@ -22,6 +22,7 @@ local function get()
     { label = "🐳 :docker:", insertText = "🐳", textEdit = { newText = ":docker:" } },
     { label = "☸️ :kubernetes:", insertText = "☸️", textEdit = { newText = ":kubernetes:" } },
     { label = "☸️ :k8s:", insertText = "☸️", textEdit = { newText = ":k8s:" } },
+    { label = "📂 :namespace:", insertText = "📂", textEdit = { newText = ":namespace:" } },
     
     { label = "☁️ :cloud:", insertText = "☁️", textEdit = { newText = ":cloud:" } },
     { label = "🖥️ :server:", insertText = "🖥️", textEdit = { newText = ":server:" } },
