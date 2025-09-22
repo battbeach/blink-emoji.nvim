@@ -1,5 +1,6 @@
 local function get()
   return {
+
     { label = "🐍 :python:", insertText = "🐍", textEdit = { newText = ":python:" } },
     { label = "🦫 :go:", insertText = "🦫", textEdit = { newText = ":go:" } },
     { label = "🦀 :rust:", insertText = "🦀", textEdit = { newText = ":rust:" } },
@@ -10,9 +11,18 @@ local function get()
     { label = "🐘 :php:", insertText = "🐘", textEdit = { newText = ":php:" } },
     { label = "🦅 :swift:", insertText = "🦅", textEdit = { newText = ":swift:" } },
 
+    { label = "🐙 :github:", insertText = "🐙", textEdit = { newText = ":github:" } },
+    { label = "🚦 :travis_ci:", insertText = "🚦", textEdit = { newText = ":travis_ci:" } },
+    { label = "🚀 :jenkins:", insertText = "🚀", textEdit = { newText = ":jenkins:" } },
+    { label = "🦊 :gitlab:", insertText = "🦊", textEdit = { newText = ":gitlab:" } },
+    { label = "♾️ :circleci:", insertText = "♾️", textEdit = { newText = ":circleci:" } },
+    { label = "🐦 :bitbucket:", insertText = "🐦", textEdit = { newText = ":bitbucket:" } },
+    { label = "🔷 :azure_devops:", insertText = "🔷", textEdit = { newText = ":azure_devops:" } },
+    { label = "🌼 :groovy:", insertText = "🌼", textEdit = { newText = ":groovy:" } },
     { label = "🐳 :docker:", insertText = "🐳", textEdit = { newText = ":docker:" } },
     { label = "☸️ :kubernetes:", insertText = "☸️", textEdit = { newText = ":kubernetes:" } },
     { label = "☸️ :k8s:", insertText = "☸️", textEdit = { newText = ":k8s:" } },
+    
     { label = "☁️ :cloud:", insertText = "☁️", textEdit = { newText = ":cloud:" } },
     { label = "🖥️ :server:", insertText = "🖥️", textEdit = { newText = ":server:" } },
     { label = "🤖 :automation:", insertText = "🤖", textEdit = { newText = ":automation:" } },
